@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-    "scripts": {
+  "scripts": {
     "start": "tsc && node dist/client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/danymat/capsule-node#readme",
   "dependencies": {
+    "@types/socket.io-client": "^3.0.0",
+    "axios": "^0.24.0",
     "socket.io": "^4.4.0"
   },
   "devDependencies": {
